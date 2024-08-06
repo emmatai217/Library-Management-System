@@ -1,6 +1,6 @@
 # test_library_manager.py
 import pytest
-from library_manager import add_book, remove_book, list_books
+from library_manager import add_book, remove_book, list_books , search_book
 
 def test_add_book():
     library = []
